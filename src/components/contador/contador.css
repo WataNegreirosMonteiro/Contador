@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#valorTexto{
+  color: black;
+  font-size: 300%;
+}
+
+.botoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+button{
+  width: 100%;
+  height: 6vh;
+  color: white;
+  background-color: rgb(47, 126, 77);
+  box-shadow: rgb(24, 63, 39) 4px 4px 0px;
+  border-radius: 6px;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+button:active{
+  background-color: rgb(37, 91, 58);
+  transform: translateY(4px) translateX(4px);
+  box-shadow:  rgb(24, 63, 39) 0px 0px 0px;
+}
